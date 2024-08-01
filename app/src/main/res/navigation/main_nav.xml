@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/fragment_links">
+
+    <fragment
+        android:id="@+id/fragment_links"
+        android:name="com.subhajitrajak.assignmentopeninapp.ui.fragments.LinksFragment"
+        android:label="LinksFragment"
+        tools:layout="@layout/fragment_links" >
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_courses"
+        android:name="com.subhajitrajak.assignmentopeninapp.ui.fragments.CoursesFragment"
+        android:label="CoursesFragment"
+        tools:layout="@layout/fragment_courses" >
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_campaigns"
+        android:name="com.subhajitrajak.assignmentopeninapp.ui.fragments.CampaignsFragment"
+        android:label="CampaignsFragment"
+        tools:layout="@layout/fragment_campaigns" >
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.subhajitrajak.assignmentopeninapp.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" >
+    </fragment>
+</navigation>
